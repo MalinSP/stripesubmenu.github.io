@@ -142,6 +142,11 @@ a {
 .hero-images {
   display: none;
 }
+@media screen and (max-width: 769px) {
+  .sign-in-btn {
+    display: none;
+  }
+}
 
 /* nav media query */
 @media screen and (min-width: 800px) {
@@ -299,7 +304,6 @@ a {
 /* links */
 .submenu {
   background: white;
-
   position: absolute;
   top: 4rem;
   left: 50%;
